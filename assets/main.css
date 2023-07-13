@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'EB Garamond';
+    src: url(EBGaramond-VariableFont_wght.ttf);
+}
+*{
+    font-family: 'EB Garamond', sans-serif;
+}
+.tabledesign1{
+    border-collapse: collapse;
+    min-width: 400px;
+    box-shadow: 3px 3px 5px rgba(154, 154, 154, 0.281);
+    font-size: 7pt;
+    font-weight: 500;
+}
+
+.tabledesign1 tr > th{
+    background-color: rgb(121, 169, 240);
+    color: white;
+    
+}
+.tabledesign1 th, .tabledesign1 td{
+    padding: 5px 15px;
+    border-right: 1px solid rgba(218, 218, 218, 0.301)
+}
+.tabledesign1 td{
+    border-bottom: 1px solid gray;
+}
+.tabledesign1 tbody tr:nth-of-type(even){
+    background-color: rgb(255, 242, 225);
+}
+.tabledesign1 tbody tr td > .act-button{
+    display: flex;
+    align-items: center;
+}
+.btn-upd{
+    padding: 4px 4px;
+    color: white;
+    background-color: rgb(15, 114, 59);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 10px;
+}
+.btn-del{
+    padding: 4px 4px;
+    color: white;
+    background-color: rgb(255, 61, 61);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 10px;
+}
